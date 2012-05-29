@@ -15,4 +15,8 @@ The challenge we present is to come up with an innovative way to display the mos
 The Python NLTK (Natural Language Toolkit, http://nltk.org/) and LingPipe (http://alias-i.com/lingpipe/) are two very useful sets of tools for processing natural language, written in Python and Java, respectively. They both provide tools for rudimentary NLP tasks such as tokenization (splitting text into words), part-of-speech tagging, grammatical parsing, as well as more complex operations such as classification and clustering. The NLTK front page shows a quick example of how to tokenize text, which will be useful for the above challenge.
 
 ##Data
-Various test data sets can be found online. A good start might be Reuters-21758, a set of news articles in plain text format: http://www.daviddlewis.com/resources/testcollections/reuters21578/. 
+Various test data sets can be found online. 
+
+For simple static text data, a good start might be Reuters-21758, a set of news articles in plain text format: http://www.daviddlewis.com/resources/testcollections/reuters21578/.
+
+However, a more dynamic application might be created by integrating with social media APIs. The Twitter API (https://dev.twitter.com/), for example, is easy to use and makes for varied and interesting data sets.
